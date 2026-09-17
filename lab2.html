@@ -1,0 +1,164 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My HTML Lab Work</title>
+</head>
+
+<body>
+
+    <h1>HTML Lab Work</h1>
+
+    <!-- ================= LIST ================= -->
+
+    <h2>1. My Hobbies - Unordered List</h2>
+
+    <ul>
+        <li>Playing Football</li>
+        <li>Listening to Music</li>
+        <li>Watching Movies</li>
+        <li>Using Computer</li>
+        <li>Reading Books</li>
+    </ul>
+
+
+    <h2>2. Steps to Create a Website - Ordered List</h2>
+
+    <ol>
+        <li>Plan the website</li>
+        <li>Create an HTML file</li>
+        <li>Write HTML code</li>
+        <li>Add content</li>
+        <li>Test the website</li>
+        <li>Publish the website</li>
+    </ol>
+
+
+    <!-- ================= TABLE ================= -->
+
+    <h2>3. Student Information Table</h2>
+
+    <table border="1" cellpadding="10">
+
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Subject</th>
+                <th>Grade</th>
+                <th>Result</th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+            <tr>
+                <td>Wellson Gharti</td>
+                <td>Computer</td>
+                <td>A</td>
+                <td>Pass</td>
+            </tr>
+
+            <tr>
+                <td>Ram Sharma</td>
+                <td>Mathematics</td>
+                <td>B+</td>
+                <td>Pass</td>
+            </tr>
+
+            <tr>
+                <td>Sita Thapa</td>
+                <td>Physics</td>
+                <td>A</td>
+                <td>Pass</td>
+            </tr>
+
+            <tr>
+                <td>Hari Gurung</td>
+                <td>Chemistry</td>
+                <td>B</td>
+                <td>Pass</td>
+            </tr>
+
+        </tbody>
+
+    </table>
+
+
+    <!-- ================= FORM ================= -->
+
+    <h2>4. Student Registration Form</h2>
+
+    <form>
+
+        <label for="name">Full Name:</label><br>
+        <input type="text"
+               id="name"
+               name="name"
+               placeholder="Enter your full name"
+               required>
+
+        <br><br>
+
+
+        <label for="password">Password:</label><br>
+        <input type="password"
+               id="password"
+               name="password"
+               placeholder="Enter your password"
+               required>
+
+        <br><br>
+
+
+        <label for="email">Email:</label><br>
+        <input type="email"
+               id="email"
+               name="email"
+               placeholder="Enter your email"
+               required>
+
+        <br><br>
+
+
+        <label>Gender:</label><br>
+
+        <input type="radio"
+               id="male"
+               name="gender"
+               value="Male">
+        <label for="male">Male</label>
+
+        <input type="radio"
+               id="female"
+               name="gender"
+               value="Female">
+        <label for="female">Female</label>
+
+        <input type="radio"
+               id="other"
+               name="gender"
+               value="Other">
+        <label for="other">Other</label>
+
+        <br><br>
+
+
+        <label for="message">Message:</label><br>
+
+        <textarea id="message"
+                  name="message"
+                  rows="5"
+                  cols="40"
+                  placeholder="Write your message here..."
+                  required></textarea>
+
+        <br><br>
+
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+
+    </form>
+
+</body>
+
+</html>
